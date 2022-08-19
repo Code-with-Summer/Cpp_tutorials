@@ -1,0 +1,31 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int a; // declaration
+    a = 12; // initialisation
+
+    cout<<"size of int "<< sizeof(a)<<endl;
+
+    float b;
+    cout<<"size of float "<< sizeof(b)<<endl;
+
+    char c;
+    cout<<"size of char "<< sizeof(c)<<endl;
+
+    bool d;
+    cout<<"size of bool "<< sizeof(d)<<endl;
+
+    short int si;
+    cout<<"size ofshortint "<< sizeof(si)<<endl;
+    
+    long int li;
+    cout<<"size of longint "<< sizeof(li)<<endl;
+
+    return 0;
+
+}
+// Modifiers modify the size occupied by data types in our memory are called TYPE MODIFIERS.
+
+// Four Type Modifiers: Signed, Unsigned, Long, Short.
